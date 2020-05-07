@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SETUP
 
-## Available Scripts
+1. Make sure you have Node installed.
 
-In the project directory, you can run:
+Test by running these commands in a command line:
 
-### `yarn start`
+```
+node -v # ==> result: v10.15.3
+npm -v # ==> result: 6.14.4
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# numbers dont have to match
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+2. Install Yarn
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install yarn by running this command in a command line:
 
-### `yarn build`
+```
+sudo npm install -g yarn
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Because you are running with "sudo" (administrator privileges), you may need to enter your password.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+3. Clone this repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To clone the reposity, enter this command into a command line:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone https://github.com/joeboylson/shellyboylson.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Install Dependencies:
 
-## Learn More
+To install the dependencies, enter these commands into a command line:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+cd shellyboylson  # change directory into shellyboylson
+yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will take a moment to run.
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+5. Start the app:
 
-### Analyzing the Bundle Size
+To start the app, simply run:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+yarn start
+```
 
-### Making a Progressive Web App
+The project should start up and open in a browser window automatically.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Open the project in a code editor and get to work! As you save, the project will reload in the browser.
