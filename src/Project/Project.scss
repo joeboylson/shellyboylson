@@ -1,0 +1,38 @@
+.project {
+    margin-top: 55px;
+    display: flex;
+
+    // initial state
+    opacity: 0;
+    transform: translateY(100px);
+
+    // animate to
+    animation: projectAnimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+
+
+    .project-image {
+        flex: 0 0 calc(50% - 55px);
+        margin-right: 55px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+
+// FADE UP ANIMATION
+
+@keyframes projectAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
